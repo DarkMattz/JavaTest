@@ -29,6 +29,9 @@ class test {
 		p.setSecond(y);
 		System.out.println(p.getFirst()*p.getSecond());
 	}
+	void thisshouldwork () {
+		System.out.println("Hello github");
+	}
 }
 
 
@@ -36,5 +39,6 @@ class test {
 public class Main {
 	public static void main(String[] args)	{
 		test p1 = new test();
+		p1.thisshouldwork();
 	}
 }
